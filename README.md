@@ -57,6 +57,7 @@ Models used:
 - Compared linear vs polynomial models to analyze non-linear relationships in academic performance.
 - Polynomial Regression R²: 0.7181
 - Polynomial Regression RMSE: 0.1987
+
 ![Model Accuracy](images/regression.png)
 
 
