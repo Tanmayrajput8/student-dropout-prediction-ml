@@ -8,9 +8,9 @@ This project analyzes a real-world student dataset to understand academic perfor
 The objective is not only prediction, but also gaining insights that can help institutions identify at-risk students early.
 
 ## Dataset
-Records: 4,400+ students
-Features: 35 academic, demographic, and socio-economic attributes
-Target Classes: Dropout, Graduate, Enrolled
+- Records: 4,400+ students
+- Features: 35 academic, demographic, and socio-economic attributes
+- Target Classes: Dropout, Graduate, Enrolled
 
 
 ## Data Preprocessing
@@ -28,7 +28,7 @@ Age and gender trends
 Course-wise dropout patterns
 Semester-wise performance consistency
 
-![Target Distribution](images/target_distribution.png)
+![Target Distribution](images/distribution.png)
 
 
 ## Machine Learning Models
@@ -55,7 +55,8 @@ Models used:
 - Engineered a performance score using semester-wise grades and approved curricular units.
 - Evaluated models using R² score and RMSE to measure prediction accuracy.
 - Compared linear vs polynomial models to analyze non-linear relationships in academic performance.
-
+- Polynomial Regression R²: 0.7181
+- Polynomial Regression RMSE: 0.1987
 ![Model Accuracy](images/regression.png)
 
 
